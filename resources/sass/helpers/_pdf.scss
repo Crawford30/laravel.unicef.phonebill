@@ -1,0 +1,10 @@
+.pdf-preview {
+
+    .pdf-main-container {
+        border: 1px solid #cccccc;
+        position: relative !important;
+        canvas {
+            width: calc(100% - 2px) !important;
+        }
+    }
+}

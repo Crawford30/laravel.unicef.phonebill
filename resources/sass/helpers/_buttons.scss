@@ -1,0 +1,45 @@
+.big-button {
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+
+.medium-button {
+    padding-top: 10px;
+    padding-bottom: 10px;
+}
+
+.small-button {
+    padding: 8px 16px;
+}
+
+.big-input {
+    padding-top: 25px;
+    padding-bottom: 25px;
+}
+
+.unicef-btn {
+    position: relative;
+    color: #dceaf5;
+    font-size: 12px;
+    text-transform: uppercase;
+    outline: none;
+    border: none;
+    border-radius: 4px;
+    padding: 15px 50px;
+}
+
+.unicef-primary {
+    background: linear-gradient(#0076c4, #004b7c);
+}
+
+.unicef-secondary {
+    background: linear-gradient(#34a9f3, #037bc6);
+}
+
+.unicef-success {
+    background: linear-gradient(#00c401, #007b1b);
+}
+
+.unicef-danger {
+    background: linear-gradient(#d63f30, #b31404);
+}

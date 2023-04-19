@@ -1,0 +1,90 @@
+.staff-view {
+
+    .btn-modal {
+        background-color: #1F69A2;
+        padding: 10px 80px;
+    }
+
+    .browse-text {
+        text-decoration: underline;
+        font-weight: 600;
+        cursor: pointer;
+    }
+    .drag-drop-area {
+        background-color: #EFF2F8;
+        text-align: center;
+        margin: 5px 25px;
+        img {
+            height: 48px;
+            width: 48px;
+        }
+    }
+    .add-new-dropdown {
+        position: relative;
+        .dropdown-menu {
+            position: absolute !important;
+            left: -149px !important;
+            top: 0 !important;
+        }
+        li {
+            &:hover {
+                background-color: inherit;
+            }
+        }
+        .dropdown-item {
+            cursor: pointer;
+            text-align: center;
+            
+            &:hover {
+                color: #3B86FF;
+            }
+        }
+    }
+    .add-btn {
+        background-color: #3B86FF;
+        padding: 5px 25px;
+    }
+    .table-padding {
+        padding: 25px 35px;
+    }
+    table {
+        thead {
+            background-color: #F5F6FA;
+            color: #A6A9B7;
+        }
+    }
+    .staff-card {
+        background: white;
+    }
+    .staff-side-menu {
+        .link {
+            padding: 10px;
+            cursor: pointer;
+            &.active {
+                color: #0285E3;
+            }
+        }
+        .material-icons {
+            font-size: 32px;
+        }
+        .desc {
+            font-size: 11px;
+        }
+    }
+
+    .permission-table {
+        .header {
+            margin-left: 20px;
+        }
+    }
+
+    &.leave-view {
+        .header {
+            .icon-img {
+                height: 32px;
+            }
+        }
+    }
+
+}
+

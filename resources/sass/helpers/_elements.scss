@@ -1,0 +1,230 @@
+.card {
+    border-radius: 0;
+    background: white;
+    box-shadow: 1px 2px 2px 1px rgba(0, 0, 0, 0.2) !important;
+    transition: 0.3s;
+
+    &.rounded {
+        border-radius: 10px;
+    }
+}
+
+.pac-item {
+	font-size: 13px !important;
+	color: #666666 !important;
+	font-family: 'Poppins', sans-serif !important;
+}
+
+.popover-title {
+    font-size: 12px !important;
+}
+
+.popover h3 {
+    font-size: 12px !important;
+}
+
+.add-more-btn {
+    border-radius: 3px;
+    background: linear-gradient(#f0f1f3, #caccd2);
+    border-color: #BBB !important;
+
+    span {
+        color: #4362ad;
+    }
+}
+
+.form-white {
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px #f0f1f3;
+}
+
+.table-sm {
+    thead {
+        text-transform: uppercase;
+        background-color: #F5F6FA;
+        color: #A6A9B7;
+    }
+    th {
+        border: none !important;
+        padding: 0.5rem 1rem !important;
+        text-transform: uppercase;
+        background-color: #F5F6FA;
+        color: #A6A9B7;
+    }
+    
+    td {
+        padding: 0.5rem 1rem !important;
+        vertical-align: middle !important;
+    }
+
+    tbody {
+        tr {
+            &:first-child {
+                td {
+                    border: none !important;
+                }
+            }
+            td {
+                vertical-align: middle !important;
+            }
+        }
+    }
+}
+
+.flatpickr-monthDropdown-months {
+    font-size: 16px !important;
+}
+
+.numInput {
+    &.cur-year {
+        font-size: 16px !important;
+    }
+}
+
+.unicef-config-menu-item{
+    cursor: pointer;
+    &:hover {
+        background-color: #F7FAFC;
+    }
+    &.active {
+        background-color: #E2E8F0;
+    }
+}
+
+.unicef-card {
+    box-shadow: 0 0 2px 2px #dddddd;
+    border-radius: 2px;
+}
+
+.nav-tab {
+    .nav-item {
+        font-size: 15px !important;
+        padding: 1.5rem 1rem !important;
+
+        &.active {
+            border-bottom: 3px solid #333333 !important;
+            color: #333333 !important;
+            font-weight: bold !important;
+        }
+    }
+}
+
+.unicef-input-icon {
+    position: absolute; 
+    right: 13px !important; 
+    top: 8px; 
+    margin-right: 13px !important;
+
+    &.n-row {
+        margin-right: 0 !important;
+    }
+
+    i {
+        color: #999;
+    }
+}
+
+.unicef-dashboard-menu {
+    // background: #FFFFFF;
+    // padding: 1.5rem;
+    // padding-bottom: 0.7rem !important;
+    // box-shadow: 0 0 3px 1px #dddddd;
+
+    h5 {
+        color: #999999;
+        font-size: 13px;
+    }
+
+    .unicef-menu-values {
+        display: block;
+        position: relative;
+        margin-top: 20px;
+
+        h2 {
+            font-weight: bold;
+            font-size: 18px;
+        }
+
+        p {
+            margin-bottom: 0px;
+            padding-bottom: 0px;
+            font-size: 12px;
+
+            &.red {
+                * {
+                    color:red;
+                    font-weight: bold;
+                }
+            }
+
+            &.green {
+                * {
+                    color: green;
+                    font-weight: bold;
+                }
+            }
+
+            i {
+                margin-right: 4px;
+            }
+        }
+
+        .unicef-menu-chart {
+            display: block;
+            position: relative;
+            width: 100%;
+            height: 60px;
+        }
+    }
+}
+
+.unicef-timeline {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+
+    .timeline-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border: 0.5px solid #dddddd;
+        border-radius: 50%;
+        text-align: center;
+        
+        i {
+            font-size: 13px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+
+    .timeline-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .timeline-text {
+        position: relative;
+        margin-left: 42px;
+
+        .text {
+            font-size: 11px; 
+            color: #777777;
+        }
+
+        .date {
+            font-size: 9px; 
+            color: #999999;
+            margin-top: 2px !important;
+        }
+    }
+}

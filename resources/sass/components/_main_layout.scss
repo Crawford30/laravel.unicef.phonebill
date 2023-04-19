@@ -1,0 +1,243 @@
+#app {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: #F0F0F7;
+}
+
+.content-bg {
+    background-color: #F0F0F7;
+}
+
+#sidebar-wrapper {
+    min-height: 100vh;
+    margin-left: -15rem;
+    -webkit-transition: margin .25s ease-out;
+    -moz-transition: margin .25s ease-out;
+    -o-transition: margin .25s ease-out;
+    transition: margin .25s ease-out;
+    background-color: #0060A0 !important;
+
+    .list-group-item {
+        border: none;
+        background-color: #0060A0;
+        color: #A9CEE2;
+        padding-top: 15px;
+        padding-bottom: 15px;
+
+        .material-icons {
+            font-size: 18px;
+        }
+
+        &:hover {
+            background-color: #1f6fb2;
+        }
+
+        &.active {
+            border-left: 3px solid #00A9DB;
+            background-color: #00558F;
+
+        }
+    }
+}
+
+#sidebar-wrapper .sidebar-heading {
+    color: white;
+    padding: 0.875rem 1.25rem;
+    font-size: 1.2rem;
+    height: 70px;
+    background-color: #00588F;
+}
+
+.d-contents {
+    display: contents;
+}
+
+#sidebar-wrapper .list-group {
+    width: 20rem;
+}
+
+#page-content-wrapper {
+    min-width: 100vw;
+
+    nav {
+        height: 70px;
+    }
+}
+
+#wrapper.toggled #sidebar-wrapper {
+    margin-left: 0;
+}
+
+@media (min-width: 768px) {
+    #sidebar-wrapper {
+        margin-left: 0;
+    }
+
+    #page-content-wrapper {
+        min-width: 0;
+        width: 100%;
+    }
+
+    #app.toggled #sidebar-wrapper {
+        margin-left: -15rem;
+    }
+}
+
+.username-link {
+    margin-top: 5px;
+}
+
+.unicef-nav-menu {
+    position: absolute;
+    background: #FFFFFF;
+    width: 500px;
+    border: 1px solid transparent;
+    border-radius: 8px;
+    right: 11px !important;
+    padding: 0 !important;
+    top: 48px;
+    z-index: 999;
+    display: none;
+    box-shadow: 0 0 3px 1px #DDDDDD;
+
+    &:after {
+        position: absolute;
+        top: -9px;
+        right: 10px;
+        display: inline-block;
+        border-right: 9px solid transparent;
+        border-bottom: 9px solid #dfeffc;
+        border-left: 9px solid transparent;
+        content: '';
+    }
+
+    .unicef-menu-header {
+        display: block;
+        position: relative;
+        padding: 15px 1.5rem;
+        background: #dfeffc;
+        border-top-left-radius: 8px;
+        border-top-right-radius: 8px;
+        text-align: left;
+
+        h3 {
+            color: #666666;
+            font-weight: bold;
+            font-size: 19px;
+            margin: 0 !important;
+        }
+    }
+
+    .unicef-menu-content {
+        background: #FFFFFF;
+        display: block;
+        position: relative;
+        padding: 0 2rem;
+        border-bottom-left-radius: 8px;
+        border-bottom-right-radius: 8px;
+
+        .unicef-menu-row {
+            width: 100%;
+            margin: auto;
+            border-bottom: 1px solid #DDDDDD;
+            padding: 1.2rem 0;
+
+            .col-md {
+                padding-left: 0 !important;
+            }
+
+            a {
+                display: block;
+                position: relative;
+
+                .unicef-menu-item {
+                    display: block;
+                    position: relative;
+
+                    .unicef-menu-icon {
+                        width: 45px;
+                        height: 45px;
+                        display: flex;
+                        border-radius: 50%;
+                        align-items: center;
+                        justify-content: center;
+                        background: #e2e8f0;
+                        position: absolute;
+                        left: 0;
+
+                        i {
+                            font-size: 20px;
+                            color: #729fa3;
+                        }
+                    }
+
+                    .unicef-menu-txt {
+                        display: block;
+                        position: relative;
+                        margin-left: 60px;
+                        padding-top: 6px;
+                       
+
+                        h3 {
+                            color: #4362ad;
+                            font-size: 15px;
+                            text-align: left;
+                        }
+
+                        p {
+                            text-align: left;
+                            margin-top: -10px;
+                            color: #7f92a3;
+                            margin-bottom: 0 !important;
+                            padding-bottom: 0 !important;
+                            font-size: 12px;
+                        }
+                    }
+                }
+
+                &:hover {
+                    text-decoration: none;
+                }
+            }
+
+            &:last-child {
+                border-bottom: none;
+            }
+        }
+    }
+}
+
+.unicef-amount-card {
+    padding: 1rem;
+    border-radius: 4px;
+    margin-bottom: 15px;
+    position: relative;
+    width: 100%;
+
+    * {
+        text-align: center;
+        color: #ffffff;
+    }
+    h1 {
+        font-size: 30px;
+        font-weight: 500;
+    }
+    p {
+        font-size: 13px;
+    }
+    span {
+        font-size: 11px;
+        display: block;
+    }
+    hr {
+        border-top-color: #ffffff !important;
+    }
+}
+
+.form-white {
+    background: #ffffff;
+    border-radius: 2px;
+    box-shadow: 0 0 2px 1px #f0f1f3;
+}

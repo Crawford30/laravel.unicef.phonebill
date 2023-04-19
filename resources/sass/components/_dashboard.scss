@@ -1,0 +1,47 @@
+.stat-text {
+
+    .stat-title {
+        font-size: 14px;
+    }
+    .count {
+        font-size: 16px;
+    }
+
+    .percentage {
+        font-size: 12px;
+
+        &.down {
+            color: #C64242;
+        }
+
+        &.up {
+            color: #2DCC70;
+        }
+    }
+}
+
+.graph-card {
+    height: 420px;
+}
+
+.summary-card {
+    height: 420px;
+}
+
+.request-btn {
+    background-color: #3B86FF;
+    padding-left: 25px;
+    padding-right: 25px;
+}
+
+.short-list{
+    overflow-y: auto;
+    height: 150px;
+    .numbering {
+        display: inline-block;
+        border: 2px solid #1f6fb2;
+        border-radius: 50%;
+        height: 10px;
+        width: 10px;
+    }
+}

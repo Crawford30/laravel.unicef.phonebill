@@ -1,0 +1,129 @@
+
+.error-hide {
+    display: none;
+}
+
+.error {
+    color: #ED1C23;
+}
+
+label {
+    &.error {
+        font-size: 12px !important;
+    }
+}
+
+// Fonts
+@import url('https://fonts.googleapis.com/css?family=Nunito');
+
+// Variables
+@import 'variables';
+
+// Bootstrap
+@import '~bootstrap/scss/bootstrap';
+
+@import "helpers/all_helpers";
+@import "helpers/staff";
+@import "components/all_components";
+
+//izitoast
+@import "~izitoast/dist/css/iziToast.min.css";
+
+//bs-stepper
+@import "~bs-stepper/dist/css/bs-stepper.min.css";
+
+body {
+    height: 100vh;
+}
+
+table {
+    thead {
+        font-weight: bold;
+        background-color: #F5F6FA;
+        color: #A6A9B7;
+    }
+}
+
+.card {
+    border-radius: 5px;
+    background: white;
+    //box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.2);
+    box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075) !important;
+    transition: 0.3s;
+}
+
+textarea {
+    resize: none;
+}
+
+.drag-drop-area {
+    background-color: #EFF2F8;
+    text-align: center;
+    margin: 5px 25px;
+    img {
+        height: 48px;
+        width: 48px;
+    }
+}
+
+.unicef-content-container {
+    height: calc(100vh - 70px) !important;
+    overflow-y: auto;
+}
+
+.unicef-card {
+    box-shadow: 0 0 2px 2px #dddddd;
+    border-radius: 2px;
+    background: #ffffff;
+}
+
+
+.unicef-timeline {
+    display: block;
+    position: relative;
+    margin-bottom: 20px;
+
+    .timeline-icon {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+        height: 30px;
+        border: 0.5px solid #dddddd;
+        border-radius: 50%;
+        text-align: center;
+        
+        i {
+            font-size: 13px;
+            line-height: 30px;
+            text-align: center;
+        }
+    }
+
+    .timeline-image {
+        position: absolute;
+        top: 0;
+        left: 0;
+        width: 30px;
+
+        img {
+            width: 100%;
+        }
+    }
+
+    .timeline-text {
+        position: relative;
+        margin-left: 42px;
+
+        .text {
+            font-size: 11px; 
+            color: #777777;
+        }
+
+        .date {
+            font-size: 9px; 
+            color: #999999;
+            margin-top: 2px !important;
+        }
+    }
+}
